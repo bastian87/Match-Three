@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8509588375442806006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8509588375442806004}
+  - component: {fileID: 8509588375442806007}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8509588375442806004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8509588375442806006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8509588375442806007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8509588375442806006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5aaa8ee550eca14aa33d59f5c08a97b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 7
+  height: 9
+  borderSize: 2
+  tileNormalPrefab: {fileID: 4542791466412371899, guid: 8cff96227d1a1434b9098d93b29d2d32,
+    type: 3}
+  tileObstaclePrefab: {fileID: 6407498058308089433, guid: 2c9f016dec3051d4db60152ebc082bcd,
+    type: 3}
+  gamePiecePrefabs:
+  - {fileID: 8220471486660080395, guid: f6173f2f3a3b5fe49921279ecd41cd23, type: 3}
+  - {fileID: 333731126985310722, guid: 872307035db9c8c449d475a1eea2d824, type: 3}
+  - {fileID: 3952241302894335864, guid: 24362ca2ac5a886409e150c7ccd08119, type: 3}
+  - {fileID: 500098693664107479, guid: c1e64b57e3df25747a362831cb006c54, type: 3}
+  - {fileID: 7156377202805014803, guid: 785a7f499252f6b429cd4256c270ae18, type: 3}
+  swapTime: 0.2
+  startingTiles:
+  - tilePrefab: {fileID: 6407498058308089433, guid: 2c9f016dec3051d4db60152ebc082bcd,
+      type: 3}
+    x: 3
+    y: 4
+    z: 0
+  - tilePrefab: {fileID: 6407498058308089433, guid: 2c9f016dec3051d4db60152ebc082bcd,
+      type: 3}
+    x: 5
+    y: 5
+    z: 0
